@@ -1,0 +1,25 @@
+{
+    "name": "lsvh/wp-fix-content-links",
+    "description": "WordPress plugin what fixes the links to resources in the content directory.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "LSVH",
+            "email": "info@lsvh.org"
+        }
+    ],
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "LSVH_WP_Fix_Content_Links\\": "src/LSVH_WP_Fix_Content_Links/"
+        }
+    },
+    "require": {
+        "php": ">=7.1",
+        "lsvh/dynamic-wp-config": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5.1"
+    }
+}
