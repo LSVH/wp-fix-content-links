@@ -1,8 +1,8 @@
 <?php
 
-namespace LSVH_WP_Fix_Content_Links\Extendables;
+namespace LSVH\WordPress\FixContentLinks\Extendables;
 
-use LSVH_WP_Fix_Content_Links\Contracts\FieldInterface;
+use LSVH\WordPress\FixContentLinks\Contracts\FieldInterface;
 
 defined('ABSPATH') or die();
 

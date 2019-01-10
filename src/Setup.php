@@ -1,15 +1,15 @@
 <?php
 
-namespace LSVH_WP_Fix_Content_Links;
+namespace LSVH\WordPress\FixContentLinks;
 
 defined('ABSPATH') or die();
 
-use LSVH_WP_Fix_Content_Links\Controllers\Activate;
-use LSVH_WP_Fix_Content_Links\Controllers\Admin;
-use LSVH_WP_Fix_Content_Links\Controllers\NotAdmin;
-use LSVH_WP_Fix_Content_Links\Controllers\Deactivate;
-use LSVH_WP_Fix_Content_Links\Extendables\CoreAbstract;
-use LSVH_WP_Fix_Content_Links\Traits\Hooks;
+use LSVH\WordPress\FixContentLinks\Controllers\Activate;
+use LSVH\WordPress\FixContentLinks\Controllers\Admin;
+use LSVH\WordPress\FixContentLinks\Controllers\NotAdmin;
+use LSVH\WordPress\FixContentLinks\Controllers\Deactivate;
+use LSVH\WordPress\FixContentLinks\Extendables\CoreAbstract;
+use LSVH\WordPress\FixContentLinks\Traits\Hooks;
 
 class Setup extends CoreAbstract
 {

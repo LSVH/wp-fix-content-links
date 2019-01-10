@@ -1,11 +1,11 @@
 <?php
 
-namespace LSVH_WP_Fix_Content_Links\Controllers;
+namespace LSVH\WordPress\FixContentLinks\Controllers;
 
 defined('ABSPATH') or die();
 
-use LSVH_WP_Fix_Content_Links\Extendables\CoreAbstract;
-use LSVH_WP_Fix_Content_Links\Models\FieldManager;
+use LSVH\WordPress\FixContentLinks\Extendables\CoreAbstract;
+use LSVH\WordPress\FixContentLinks\Models\FieldManager;
 
 class Admin extends CoreAbstract
 {

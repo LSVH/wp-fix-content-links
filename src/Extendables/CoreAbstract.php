@@ -1,11 +1,11 @@
 <?php
 
-namespace LSVH_WP_Fix_Content_Links\Extendables;
+namespace LSVH\WordPress\FixContentLinks\Extendables;
 
 defined('ABSPATH') or die();
 
-use LSVH_WP_Fix_Content_Links\Contracts\CoreInterface;
-use LSVH_WP_Fix_Content_Links\Contracts\CoreSettingsInterface;
+use LSVH\WordPress\FixContentLinks\Contracts\CoreInterface;
+use LSVH\WordPress\FixContentLinks\Contracts\CoreSettingsInterface;
 use LSVH_Dynamic_WP_Config\Init as Dynamic_Config;
 
 abstract class CoreAbstract implements CoreInterface, CoreSettingsInterface

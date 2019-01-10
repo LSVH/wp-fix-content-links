@@ -1,10 +1,10 @@
 <?php
 
-namespace LSVH_WP_Fix_Content_Links\Controllers;
+namespace LSVH\WordPress\FixContentLinks\Controllers;
 
 defined('ABSPATH') or die();
 
-use LSVH_WP_Fix_Content_Links\Extendables\CoreAbstract;
+use LSVH\WordPress\FixContentLinks\Extendables\CoreAbstract;
 
 class Deactivate extends CoreAbstract
 {

@@ -7,7 +7,7 @@
 
 ## composer files
 composer.phar
-composer.lock
+build/*
 
 ## Symfony directories
 vendor/*

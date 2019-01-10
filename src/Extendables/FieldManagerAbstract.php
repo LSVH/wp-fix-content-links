@@ -1,10 +1,10 @@
 <?php
 
-namespace LSVH_WP_Fix_Content_Links\Extendables;
+namespace LSVH\WordPress\FixContentLinks\Extendables;
 
 defined('ABSPATH') or die();
 
-use LSVH_WP_Fix_Content_Links\Contracts\FieldManagerInterface;
+use LSVH\WordPress\FixContentLinks\Contracts\FieldManagerInterface;
 
 abstract class FieldManagerAbstract implements FieldManagerInterface
 {

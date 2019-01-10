@@ -1,10 +1,10 @@
 <?php
 
-namespace LSVH_WP_Fix_Content_Links\Controllers;
+namespace LSVH\WordPress\FixContentLinks\Controllers;
 
 defined('ABSPATH') or die();
 
-use LSVH_WP_Fix_Content_Links\Extendables\CoreAbstract;
+use LSVH\WordPress\FixContentLinks\Extendables\CoreAbstract;
 
 class NotAdmin extends CoreAbstract
 {
@@ -17,7 +17,7 @@ class NotAdmin extends CoreAbstract
         preg_match_all($pattern, $content, $matches);
 
         if (!empty($matches)) {
-            $excluded = explode("\n", $this->get_option(self::FIELD_EXCLUDE));
+            $excluded = array_filter(explode("\n", $this->get_option(self::FIELD_EXCLUDE)));
 
             $wp_uploads = wp_upload_dir();
             $uploads_dir = basename($wp_uploads['basedir']);

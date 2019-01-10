@@ -18,7 +18,7 @@ defined( 'ABSPATH' ) or die();
 require plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
 
 // Import the class to initiate the plugin
-use \LSVH_WP_Fix_Content_Links\Setup;
+use LSVH\WordPress\FixContentLinks\Setup;
 
 // Make sure the WP Plugin API is loaded
 if (!function_exists('get_plugin_data')) {

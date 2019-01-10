@@ -1,14 +1,14 @@
 <?php
 
-namespace LSVH_WP_Fix_Content_Links\Models;
+namespace LSVH\WordPress\FixContentLinks\Models;
 
 defined('ABSPATH') or die();
 
-use LSVH_WP_Fix_Content_Links\Contracts\FieldInterface;
-use LSVH_WP_Fix_Content_Links\Extendables\FieldManagerAbstract;
-use LSVH_WP_Fix_Content_Links\Models\FieldTypes\SelectBoxes;
-use LSVH_WP_Fix_Content_Links\Models\FieldTypes\TextArea;
-use LSVH_WP_Fix_Content_Links\Models\FieldTypes\TextField;
+use LSVH\WordPress\FixContentLinks\Contracts\FieldInterface;
+use LSVH\WordPress\FixContentLinks\Extendables\FieldManagerAbstract;
+use LSVH\WordPress\FixContentLinks\Models\FieldTypes\SelectBoxes;
+use LSVH\WordPress\FixContentLinks\Models\FieldTypes\TextArea;
+use LSVH\WordPress\FixContentLinks\Models\FieldTypes\TextField;
 
 class FieldManager extends FieldManagerAbstract
 {

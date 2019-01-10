@@ -1,6 +1,6 @@
 <?php
 
-namespace LSVH_WP_Fix_Content_Links\Traits;
+namespace LSVH\WordPress\FixContentLinks\Traits;
 
 defined('ABSPATH') or die();
 

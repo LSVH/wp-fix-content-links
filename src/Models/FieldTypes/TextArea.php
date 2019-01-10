@@ -1,10 +1,10 @@
 <?php
 
-namespace LSVH_WP_Fix_Content_Links\Models\FieldTypes;
+namespace LSVH\WordPress\FixContentLinks\Models\FieldTypes;
 
 defined('ABSPATH') or die();
 
-use LSVH_WP_Fix_Content_Links\Extendables\FieldAbstract;
+use LSVH\WordPress\FixContentLinks\Extendables\FieldAbstract;
 
 class TextArea extends FieldAbstract
 {
