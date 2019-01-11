@@ -6,7 +6,7 @@ defined('ABSPATH') or die();
 
 use LSVH\WordPress\FixContentLinks\Contracts\CoreInterface;
 use LSVH\WordPress\FixContentLinks\Contracts\CoreSettingsInterface;
-use LSVH_Dynamic_WP_Config\Init as Dynamic_Config;
+use LSVH\WordPress\DynamicConfig\Init as DynamicConfig;
 
 abstract class CoreAbstract implements CoreInterface, CoreSettingsInterface
 {
@@ -203,8 +203,8 @@ abstract class CoreAbstract implements CoreInterface, CoreSettingsInterface
                 return 'temporary';
 
             case self::FIELD_PATH:
-                $without = Dynamic_Config::url_without_path();
-                $with = Dynamic_Config::url_with_path();
+                $without = DynamicConfig::url_without_path();
+                $with = DynamicConfig::url_with_path();
                 return substr($with, strlen($without));
 
             default:
